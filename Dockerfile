@@ -1,5 +1,5 @@
 FROM httpd 
 MAINTAINER avinash
-COPY .htdocs/
+COPY . htdocs/
 RUN apt-get update
 RUN apt-get install vim -y
